@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+:root{
+    --background-tag: hsl(213, 19%, 18%);
+    --text-colors: #EFF1F4;
+    --button-rate-color:hsla(215, 11%, 39%, 0.335);
+    --button-rate-color-hover:hsla(216, 3%, 63%, 0.726);
+    --font-color: hsl(217, 12%, 63%);
+}
+body{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    background-color: rgb(191, 185, 177);
+    font-family: 'Poppins', sans-serif;
+    color: var(--font-color);
+}
+h2{
+    font-weight:700;
+}
+p{
+    font-size: 17px;
+    font-weight: 400;
+}
+.container{
+    display: grid;
+    row-gap: 15px;
+    width: 400px;
+    background-color:  var(--background-tag);
+    color: var(--text-colors);
+    padding: 50px;
+    border-radius: 20px;
+    margin-top: 10%;
+    box-shadow: 20px 20px rgb(71, 70, 70);
+}
+.button-container{
+    display: flex;
+    justify-content: center;
+    
+}
+.rating{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: var(--button-rate-color);
+    border: 0px;
+    color: var(--font-color);
+    font-size: 15px;
+    font-weight: bold;
+}
+#submit{
+    height: 50px;
+    border-radius: 25px;
+    margin-top: 20px;
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    font-size: 15px;
+}
+.rating:hover{
+    background-color: var(--button-rate-color-hover);
+    color:white;
+}
+.rating:focus{
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
+img{
+    background-color: var(--button-rate-color);
+    padding:15px;
+    border-radius: 50%;
+    width: 30px;
+}
+#submit:hover{
+    background-color: white;
+    color:black;
+}
