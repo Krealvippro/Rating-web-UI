@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
+
+:root {
+  --orange: hsl(29, 92%, 58%);
+  --background-tag: hsl(213, 19%, 18%);
+  --text-colors: #eff1f4;
+  --button-rate-color: hsla(215, 11%, 39%, 0.335);
+  --button-rate-color-hover: hsla(216, 3%, 63%, 0.726);
+  --font-color: hsl(217, 12%, 63%);
+}
+body {
+  display: flex;
+  justify-content: center;
+  font-size: 17px;
+  background-color: var(--font-color);
+}
+.container {
+  display: grid;
+  width: 300px;
+  background-color: var(--background-tag);
+  font-family: "Poppins", sans-serif;
+  margin-top: 13%;
+  padding: 50px;
+  border-radius: 20px;
+  justify-items: center;
+  row-gap: 10px;
+}
+h1 {
+  color: white;
+  font-weight: bold;
+}
+p {
+  color: var(--font-color);
+  font-weight: bold;
+}
+
+#selection {
+  display: flex;
+  margin-top: 10px;
+  color: var(--orange);
+  background-color: var(--button-rate-color);
+  width: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+#rating{
+background-color: var(--orange);
+color: white;
+font-weight: bolder;
+  width: 25px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+}
