@@ -11,5 +11,5 @@ submit.onclick = () => {
         rating = 1;
     }
     localStorage.setItem("RATE", rating);
-    window.open("thanks.html","_self");
+    window.open("../thanks.html","_self");
 };
